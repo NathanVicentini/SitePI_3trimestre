@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #131238;
+}
+
+.imagem{
+    background-image: url(Obmep.png);
+    background-attachment: scroll;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+ 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.subtitulo{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+.nav {
+    background-color: #6c7fe09b;
+    padding: 10px;
+    text-align: right;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav a {
+    color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ccc;
+}
+.site{
+    text-align: justify;
+    padding: 20px;
+    border: 10px;
+}
+.site p{
+    color: beige;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    
+}
+
+.sobre {
+    border: 10px; ;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sobre h1{
+    text-align: center;
+    color: beige;
+    font-family: "Lugrasimmo", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+}
+
+.sobre p{
+    color: beige;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 { 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: justify;
+    padding: 20px;
+}
+.container p{
+    color: beige;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.container h6{
+    margin: 10px;
+    padding: auto;
+    color:beige;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.container ul{
+   
+    margin: 5px;
+    padding: 20px;
+    color: beige;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+
+.container li{
+    display: list-item;
+    margin: 10px;
+    padding: 20px;
+    color: beige;
+}
+
+.nav ul {
+    flex-direction: row;
+}
+
+.nav li {
+    margin: right 0; }
+
+    .contatos{
+        background-color: beige;
+        border-top-left-radius: 75%;
+        border-top-right-radius: 75%;
+    }
+    .contatos h6{
+        color: aliceblue;
+        text-align: center;
+    }
+
+.contatos p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+}
+.contatos a{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.titulo2{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: black;
+}
+.titulo2 h3{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color: black;
+    font-family: "Lugrasimo", cursive;
+    font-size: large;
+    font-style: normal;
+    font-weight: 400;
+}
+.body{
+    font-family: "Lugrasimo", cursive;
+    background-color:131238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login{
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.login h1{
+text-align: center;
+margin-bottom: 20px;
+}
+login a{
+    text-decoration: none;
+}
+.input-group{
+    margin-bottom: 15px;
+}
+.input-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+ input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.body h3{
+text-align: center;
+text-decoration: none;
+font-family: "Lugrasimo", cursive;
+}
+.body a{
+    text-decoration: none;
+    font-style: normal;
+    color: #5cb85c;
+}
